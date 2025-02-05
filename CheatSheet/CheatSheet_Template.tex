@@ -9,27 +9,20 @@
 \fontfamily{put}
 \begin{minipage}{\textwidth} %title
 	\tikz{
-		\draw[thick, color=w] (1,0) -- (\textwidth-0.25in,0);
-		\node[anchor=west, fill = b, inner sep = 3pt, text=w] at (0,0) {\textbf{TEMPLATE}};
-		\node[anchor=east, fill = b, inner sep = 3pt, text=w] at (\textwidth,0) {\textbf{name}};
+		\draw[thick, color=b] (1,0) -- (\textwidth-0.25in,0);
+		\node[anchor=west, fill = w, inner sep = 3pt, text=b] at (0,0) {\textbf{TEMPLATE}};
+		\node[anchor=east, fill = w, inner sep = 3pt, text=b] at (\textwidth,0) {\textbf{name}};
 	}
 \end{minipage}
 
 \begin{multicols*}{4}
-	\begin{conceptbox}[v3]{Header 1}
-		\nc[v3]{Header 2}
+	\begin{conceptbox}[lightgrey]{Header 1}
+		\nc[lightgrey]{Header 2}
 	\end{conceptbox}
 
-	\begin{conceptbox}[r3]{Header 1}
-		\nc[r3]{Header 2}
+	\begin{conceptbox}[lightgrey]{Header 1}
+		\nc[lightgrey]{Header 2}
 	\end{conceptbox}
 
-	\begin{conceptbox}[o3]{Header 1}
-		\nc[o3]{Header 2}
-	\end{conceptbox}
-
-	\begin{conceptbox}[b3]{Header 1}
-		\nc[b3]{Header 2}
-	\end{conceptbox}
 \end{multicols*}
 \end{document}

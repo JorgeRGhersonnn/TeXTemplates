@@ -105,21 +105,6 @@
 \definecolor{g2}{RGB}{170, 230, 200}    % Mint
 \definecolor{g3}{RGB}{180, 230, 180}    % Sage
 
-% Oranges (o)
-\definecolor{o1}{RGB}{230, 200, 170}    % Peach
-\definecolor{o2}{RGB}{240, 215, 170}    % Cream
-\definecolor{o3}{RGB}{235, 210, 175}    % Buff
-
-% Violets (v)
-\definecolor{v1}{RGB}{200, 170, 230}    % Purple
-\definecolor{v2}{RGB}{210, 180, 230}    % Lilac
-\definecolor{v3}{RGB}{205, 175, 230}    % Lavender
-
-% Yellows (y)
-\definecolor{y1}{RGB}{240, 240, 170}    % Yellow
-\definecolor{y2}{RGB}{245, 235, 170}    % Cream yellow
-\definecolor{y3}{RGB}{240, 225, 170}    % Warm cream
-
 % Neutral tones
 \definecolor{w}{HTML}{f8f8f8}   % Softer white
 \definecolor{g}{HTML}{555555}   % Medium grey
@@ -136,11 +121,11 @@
 
 \newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
 
-\newcommand{\nc}[2][b]{%
+\newcommand{\nc}[2][g]{%
 \tikz \draw [draw=#1,thick]
     ($(current page.center)-(0.495\linewidth,0)$) -- 
     ($(current page.center)+(0.495\linewidth,0)$)
-    node [midway, fill=b] {\ssmall\textbf{\uppercase{#2}}};
+    node [midway, fill=w] {\ssmall\textbf{\uppercase{#2}}};
 }
 
 \newtcolorbox{conceptbox}[2][]{
@@ -148,7 +133,7 @@
 	vfill before first=false,
 	segmentation at break=false,
 	size=fbox,
-	colback=b,
+	colback=w,
 	title=\scriptsize\textbf{\MakeUppercase{#2}},
 	left=2pt,
 	right=2pt,
@@ -156,7 +141,7 @@
 	bottom=1pt,
 	boxrule=1pt,
 	coltitle=b,
-	colupper=w,
+	colupper=b,
 	pad at break=5pt,
 	toprule at break=4pt,
 	bottomrule at break=0.75pt,
