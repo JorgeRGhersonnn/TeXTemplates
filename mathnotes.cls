@@ -1,4 +1,4 @@
-\ProvidesClass{mathnotes}[2025/01/20 Mathematics Notes Class]
+\ProvidesClass{mathnotes}[Mathematics Notes Class]
 
 % Base Class
 \LoadClass[11pt]{article}
