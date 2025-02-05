@@ -18,13 +18,13 @@
 % Theorem-like Environments
 \newtheoremstyle{mystyle}%
   {1em}   % Space above
-  {1em}   % Space below
+  {1em}   %   ^   below
   {\itshape} % Body font
-  {}       % Indent amount
-  {\bfseries} % Theorem head font
-  {.}      % Punctuation after theorem head
-  { }      % Space after theorem head
-  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}} % Theorem head spec
+  {0.5em}       % Indent amount
+  {\bfseries} % Thm. head font
+  {}      % Punctuation after Thm. head
+  { }      % Space after Thm. head
+  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}} % Thm. head spec
 
 \theoremstyle{mystyle}
 \newtheorem{theorem}{Theorem}[section]
@@ -36,7 +36,7 @@
 \newenvironment{answer}[2][Answer]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 
-% Proof Environment
+% Proofs
 \renewcommand{\proofname}{Proof}
 
 % Metadata
