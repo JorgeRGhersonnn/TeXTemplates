@@ -34,9 +34,9 @@
   {1em}   % Space above
   {1em}   % Space below
   {\itshape} % Body font
-  {}       % Indent amount
+  {0.5em}       % Indent amount
   {\bfseries} % Theorem head font
-  {.}      % Punctuation after theorem head
+  {}      % Punctuation after theorem head
   { }      % Space after theorem head
   {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}} % Theorem head spec
 
