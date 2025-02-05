@@ -1,4 +1,4 @@
-\loadclass{article}[10pt]
+\LoadClass[10pt]{article}
 
 \usepackage[framemethod=TikZ]{mdframed}
 \usepackage{amsthm}
